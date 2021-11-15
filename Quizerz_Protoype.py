@@ -43,5 +43,5 @@ while prog_exe != 'n':
         row_count.remove(x)
         print('Next Questions ... ')
         print('-' * 20)
-    print('Total Correct = ', correct[0], '/', len(df.index) + 1)
+    print('Total Correct = ', correct[0], '/', len(df.index))
     prog_exe = str(input('Do you want to try again? type "n" to exit')).lower()
