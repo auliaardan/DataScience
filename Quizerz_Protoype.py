@@ -28,7 +28,7 @@ while prog_exe != 'n':
     while row_count:
         have_answered = ''
         check_answer = ''
-        curr_number = random.randint(0, len(row_count))
+        curr_number = random.randint(0, len(row_count)-1)
         x = int(row_count[curr_number])
         curr_question = df.loc[df['No'] == x]
         print(curr_question['Question'].to_string(index=False))
