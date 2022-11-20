@@ -1,7 +1,7 @@
 # DataScience
 Collection of notebooks and codes that analyzes data.
 
-Please look through the codes and contact me if there is any feedbacks
+Please look through the codes and contact me if there are any feedbacks
 
 Contact information:
 auliarahmanardan@gmail.com
